@@ -10,6 +10,6 @@ public class IngredientByIdConverter implements Converter<String,Ingredient> {
     private IngredientRepository ingredientRepository;
     @Override
     public Ingredient convert(String id) {
-        return ingredientRepository.findOne(id);
+        return ingredientRepository.findById(id).get();
     }
 }
