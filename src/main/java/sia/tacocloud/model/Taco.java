@@ -1,9 +1,7 @@
-package sia.tacocloud;
+package sia.tacocloud.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import sia.tacocloud.model.Ingredient;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
